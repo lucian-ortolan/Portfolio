@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link type="image/png" sizes="16x16" rel="icon" href="../assets/favicon.png">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3.2.0/dist/email.min.js"></script>
+    <title>Contato</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">            
+            <a href="../index.html" class="cabecalho__menu__link">Home</a>
+            <a href="about.html" class="cabecalho__menu__link">Sobre mim</a>
+            <a href="projects.html" class="cabecalho__menu__link">Projetos</a>
+            <a href="contact.html" class="cabecalho__menu__link">Contato</a>              
+        </nav>
+    </header>
+    <main class="apresentacao">
+        <section id="contato">
+            <h1 class="apresentacao__conteudo__titulo">Entre em Contato</h1>
+            <form id="form-contato" method="POST">
+                <div class="contato__label__nome">
+                    <label for="nome" class="apresentacao__conteudo__texto">Nome:</label>
+                    <input type="text" id="nome" name="nome" required class="contato__inputs">                                
+                    <label for="email" class="apresentacao__conteudo__texto">Email:</label>
+                    <input type="email" id="email" name="email" required class="contato__inputs">                                
+                    <label for="mensagem" class="apresentacao__conteudo__texto">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="10" required></textarea>
+                </div>
+                <button type="submit" class="contato__botao">Enviar</button>
+            </form>
+            <p id="status" class="contato__mensagem__envio"></p>
+        </section>          
+    </main>
+    <footer class="rodape">
+        <p class="rodape__paragrafo"></p>
+    </footer>
+    <script src="../scripts/script.js"></script>
+</body>
+</html>
