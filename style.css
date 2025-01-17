@@ -25,7 +25,7 @@
 .cabecalho__menu__link {
     font-family: var(--fonte-secundaria);
     font-weight: 600;
-    font-size: 24px;    
+    font-size: 1.5rem;    
     text-decoration: none;
     color: var(--cor-terciaria);           
 }
@@ -56,7 +56,7 @@ body{
 }
 
 .apresentacao__conteudo__titulo{
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--fonte-primaria);
 }
 
@@ -65,7 +65,7 @@ body{
 }
 
 .apresentacao__conteudo__texto{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -86,7 +86,7 @@ body{
     width: 378px;
     text-align: center;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;    
@@ -109,7 +109,7 @@ body{
     text-align: center;
     padding: 24px;
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;    
 }
 
