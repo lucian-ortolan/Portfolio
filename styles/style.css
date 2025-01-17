@@ -38,7 +38,7 @@
 body{
     height: 100vh;
     box-sizing: border-box;
-    background-color: var(--cor-primaria);
+    background-color: #254336;
     color: var(--cor-secundaria);
 }
 
