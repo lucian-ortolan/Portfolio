@@ -147,7 +147,7 @@ body{
     margin-top: 10px;
 }
 
-@media (max-width: 430px) {
+@media (min-width: 295px) {
     .cabecalho {
         padding: 4% 0 0 0;
     }
