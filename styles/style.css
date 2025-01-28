@@ -136,6 +136,7 @@ body{
     background-color: var(--cor-secundaria);
     font: var(--fonte-secundaria);
     font-weight: 400;
+    font-family: var(--fonte-secundaria);
 }
 
 .contato__botao:hover {
