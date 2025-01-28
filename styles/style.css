@@ -112,7 +112,8 @@ body{
     padding: 24px;
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
-    font-weight: 400;    
+    font-weight: 400;
+    bottom: 0;       
 }
 
 .contato__label__nome {
@@ -147,7 +148,7 @@ body{
     margin-top: 10px;
 }
 
-@media (min-width: 295px) {
+@media (max-width: 700px) {
     .cabecalho {
         padding: 4% 0 0 0;
     }
@@ -158,20 +159,30 @@ body{
     }
 
     .cabecalho__menu__link {
-        font-size: 1rem;    
+        font-size: 0.75rem;    
     }
 
     .apresentacao__conteudo__titulo{
-        font-size: 1.25rem;        
+        font-size: 1rem;        
     }
 
     .apresentacao__conteudo__texto{
-        font-size: 1rem;     
+        font-size: 0.75rem;     
     }
 
-    .rodape {        
-        text-align: center;
-        position: fixed;
-        bottom: 0;
+    .apresentacao__links_subtitulo {
+        font-size: 1rem;
     }
+
+    .apresentacao__links__link {
+        width: 185px;
+        font-size: 1.25rem;        
+    }
+
+    .rodape {
+        font-size: 1rem;
+        bottom: 0;
+        position: static;
+    }
+
 }
