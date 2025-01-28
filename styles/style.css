@@ -146,3 +146,32 @@ body{
 .contato__mensagem__envio {
     margin-top: 10px;
 }
+
+@media (max-width: 430px) {
+    .cabecalho {
+        padding: 4% 0 0 0;
+    }
+    
+    .cabecalho__menu {
+        display: flex;        
+        gap: 20px;
+    }
+
+    .cabecalho__menu__link {
+        font-size: 1rem;    
+    }
+
+    .apresentacao__conteudo__titulo{
+        font-size: 1.25rem;        
+    }
+
+    .apresentacao__conteudo__texto{
+        font-size: 1rem;     
+    }
+
+    .rodape {        
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+    }
+}
