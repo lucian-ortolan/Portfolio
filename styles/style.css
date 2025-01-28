@@ -54,7 +54,7 @@ body{
     display: flex;
     flex-direction: column;
     text-align: center;    
-    gap: 40px;
+    gap: 40px;    
 }
 
 .apresentacao__conteudo__titulo{
@@ -161,6 +161,12 @@ body{
 
     .cabecalho__menu__link {
         font-size: 0.75rem;    
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
+        padding: 0 5%;
+        text-align: justify;
     }
 
     .apresentacao__conteudo__titulo{
